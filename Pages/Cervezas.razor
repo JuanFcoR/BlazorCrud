@@ -8,7 +8,7 @@
 <h3> Cervezas</h3>
 <div class="row">
     <div class="col-12 text-right">
-        <a href="cervezaform">content</a>
+        <a href="cervezaform" class="btn btn-sm btn-outline-primary">Agregar</a>
     </div>
 </div>
 
@@ -28,8 +28,8 @@
                 <td>@oElement.Nombre</td>
                 <td>@oElement.Marca</td>
                 <td>
-                    <a href="/cervezaform/@oElement.Id">Editar</a>
-                    <a href="/eliminarcerveza/@oElement.Id">Eliminar</a>
+                    <a href="/cervezaform/@oElement.Id" class="btn btn-sm btn-outline-primary">Editar</a>
+                    <a href="/eliminarcerveza/@oElement.Id" class="btn btn-sm btn-outline-danger" >Eliminar</a>
                 </td>
             </tr>
         }

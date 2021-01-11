@@ -37,7 +37,7 @@ namespace BlazorCrud
 
             services.AddSingleton(new HttpClient(httpClientHandler)
             {
-                BaseAddress = new Uri("https://webserviceblazorcrud.azurewebsites.net/api/Cerveza")
+                BaseAddress = new Uri("https://webserviceblazorcrud20210104011621.azurewebsites.net/api/Cerveza")
             }); 
         }
 
