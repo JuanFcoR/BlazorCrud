@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BlazorCrud.Data
 {
-    public partial class Cerveza
+    public class Cerveza
     {
         public int Id { get; set; }
         public string Nombre { get; set; }

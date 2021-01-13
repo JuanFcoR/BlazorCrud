@@ -19,9 +19,9 @@
         <th>Marca</th>
     </tr>
 
-    @if (oRespuesta != null & oRespuesta.Data != null)
+    @if (oRespuesta != null & oRespuesta.CervezaData != null)
     {
-        @foreach (var oElement in oRespuesta.Data)
+        @foreach (var oElement in oRespuesta.CervezaData)
         {
             <tr>
                 <td>@oElement.Id</td>
